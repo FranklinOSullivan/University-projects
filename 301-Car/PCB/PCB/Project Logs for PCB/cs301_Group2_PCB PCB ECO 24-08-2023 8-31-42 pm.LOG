@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=VoutA Pin=P3-1
+Added Net: Name=VoutA
+Added Pin To Net: NetName=VoutB Pin=P3-2
+Added Net: Name=VoutB
+Added Pin To Net: NetName=VoutC Pin=P3-3
+Added Net: Name=VoutC
+Added Pin To Net: NetName=VoutD Pin=P0-8
+Added Net: Name=VoutD
+Added Pin To Net: NetName=VoutE Pin=P2-8
+Added Net: Name=VoutE
+Added Pin To Net: NetName=VoutF Pin=P2-6
+Added Net: Name=VoutF
+Added Room: Name=cs301_Group2

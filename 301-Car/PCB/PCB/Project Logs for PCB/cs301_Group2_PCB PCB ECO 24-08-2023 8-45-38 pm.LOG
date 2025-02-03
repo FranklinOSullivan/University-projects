@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=NetR10D_1 Pin=P0-8
+Added Pin To Net: NetName=NetR10F_1 Pin=P2-6
+Added Pin To Net: NetName=NetR10E_1 Pin=P2-8
+Added Pin To Net: NetName=NetR10A_1 Pin=P3-1
+Added Pin To Net: NetName=NetR10B_1 Pin=P3-2
+Added Pin To Net: NetName=NetR10C_1 Pin=P3-3
+Change Net Name : Old Net Name=NetR10A_1 New Net Name=Vout1
+Change Net Name : Old Net Name=NetR10B_1 New Net Name=Vout2
+Change Net Name : Old Net Name=NetR10C_1 New Net Name=Vout3
+Change Net Name : Old Net Name=NetR10D_1 New Net Name=Vout4
+Change Net Name : Old Net Name=NetR10E_1 New Net Name=Vout5
+Change Net Name : Old Net Name=NetR10F_1 New Net Name=Vout6
+Added Class: Name=Vout[1..6]

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=RENCDB Pin=P1-5
+Removed Pin From Net: NetName=RENCDA Pin=P1-6
+Added Pin To Net: NetName=RENCDA Pin=P1-5
+Added Pin To Net: NetName=RENCDB Pin=P1-6

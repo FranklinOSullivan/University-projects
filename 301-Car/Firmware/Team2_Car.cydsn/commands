@@ -1,0 +1,9 @@
+Connect micro USB to use USB/terminal based control of software
+
+Commands
+
+1) "left xx" and "right xx"
+Sets the target rpm of the motor to xx 
+
+2) "stats"
+Prints current PID stats to the terminal

@@ -1,0 +1,7 @@
+Change Net Name : Old Net Name=NetR10A_1 New Net Name=Vout1
+Change Net Name : Old Net Name=NetR10B_1 New Net Name=Vout2
+Change Net Name : Old Net Name=NetR10C_1 New Net Name=Vout3
+Change Net Name : Old Net Name=NetR10D_1 New Net Name=Vout4
+Change Net Name : Old Net Name=NetR10E_1 New Net Name=Vout5
+Change Net Name : Old Net Name=NetR10F_1 New Net Name=Vout6
+Added Class: Name=Vout[1..6]

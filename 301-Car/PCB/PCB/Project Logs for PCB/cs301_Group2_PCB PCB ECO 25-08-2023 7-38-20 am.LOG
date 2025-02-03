@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=VCC Pin=+5V-2
+Added Pin To Net: NetName=VCC Pin=5V-1
+Added Pin To Net: NetName=VCC Pin=J13-8
+Added Pin To Net: NetName=VCC Pin=J13-9
+Added Pin To Net: NetName=VCC Pin=J18-6
+Added Pin To Net: NetName=VCC Pin=J18-7
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=VCC Pin=R3-2
+Change Net Name : Old Net Name=VCC New Net Name=+5V
+Added Room: Name=cs301_Group2

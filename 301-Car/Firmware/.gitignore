@@ -1,0 +1,9 @@
+Backup/
+
+Team2_Car.cydsn/Generated_Source/
+Team2_Car.cydsn/codegentemp/
+Team2_Car.cydsn/CortexM3/
+*.dylan
+*.fosu562
+*.npat025
+*.log

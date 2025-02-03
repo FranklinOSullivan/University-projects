@@ -1,0 +1,2 @@
+Add Pin To Net: Pin=P3-2 Old Net=NetP3_2 New Net=Vout2
+Change Pin Designator/Name:  Old Designator=P1-7 Old Name=1.6 New Designator =1.7 New Name=8

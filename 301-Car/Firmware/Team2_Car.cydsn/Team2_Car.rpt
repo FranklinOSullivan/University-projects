@@ -1,0 +1,13 @@
+Loading plugins phase: Elapsed time ==> 0s.095ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Git\301-Car\Firmware\Team2_Car.cydsn\Team2_Car.cyprj -d CY8C5888LTI-LP097 -s C:\Git\301-Car\Firmware\Team2_Car.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+ADD: sdb.M0033: error: The instance 'PID_ISR', of component cy_isr_v1_71, contains an error. Unable to locate and customize component 'cy_isr_v1_71' used in schematic 'C:\Git\301-Car\Firmware\Team2_Car.cydsn\TopDesign\TopDesign.cysch'.
+ *  (Component Update Tool)
+ * C:\Git\301-Car\Firmware\Team2_Car.cydsn\TopDesign\TopDesign.cysch (Instance:PID_ISR)
+
+ADD: sdb.M0052: error: Unable to find component "cy_boot_v5_82".
+
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 1s.468ms

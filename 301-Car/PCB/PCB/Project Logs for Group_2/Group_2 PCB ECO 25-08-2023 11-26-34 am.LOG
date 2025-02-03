@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=LSLEW Pin=J13-6
+Added Pin To Net: NetName=LSLEW Pin=P3-6
+Added Net: Name=LSLEW
+Added Pin To Net: NetName=RSLEW Pin=J18-4
+Added Pin To Net: NetName=RSLEW Pin=P12-3
+Added Net: Name=RSLEW
+Added Room: Name=cs301_Group2

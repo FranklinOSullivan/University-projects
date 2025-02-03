@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "dijkstra.h": "c",
+        "map": "c",
+        "stdint.h": "c",
+        "time.h": "c",
+        "test.h": "c"
+    }
+}

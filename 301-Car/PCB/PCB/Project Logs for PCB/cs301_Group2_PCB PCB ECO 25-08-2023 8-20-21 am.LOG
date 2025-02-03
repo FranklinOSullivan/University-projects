@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=Vout6 Pin=P2-6
+Added Pin To Net: NetName=Vout6 Pin=P0-7

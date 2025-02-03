@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=+5V Pin=+5V-2
+Removed Pin From Net: NetName=+5V Pin=5V-1
+Removed Pin From Net: NetName=+5V Pin=J13-8
+Removed Pin From Net: NetName=+5V Pin=J13-9
+Removed Pin From Net: NetName=+5V Pin=J18-6
+Removed Pin From Net: NetName=+5V Pin=J18-7
+Removed Pin From Net: NetName=+5V Pin=R1-2
+Removed Pin From Net: NetName=+5V Pin=R2-2
+Removed Pin From Net: NetName=+5V Pin=R3-2
+Change Net Name : Old Net Name=+5V New Net Name=VCC
+Added Pin To Net: NetName=+5V Pin=5V-1
+Added Pin To Net: NetName=+5V Pin=+5V-2
+Added Pin To Net: NetName=+5V Pin=J13-8
+Added Pin To Net: NetName=+5V Pin=J13-9
+Added Pin To Net: NetName=+5V Pin=J18-6
+Added Pin To Net: NetName=+5V Pin=J18-7
+Added Pin To Net: NetName=+5V Pin=R1-2
+Added Pin To Net: NetName=+5V Pin=R2-2
+Added Pin To Net: NetName=+5V Pin=R3-2
+Added Net: Name=+5V

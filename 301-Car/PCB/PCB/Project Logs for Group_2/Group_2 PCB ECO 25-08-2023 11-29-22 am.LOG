@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=LINV Pin=J13-7
+Added Pin To Net: NetName=LINV Pin=P15-1
+Added Net: Name=LINV
+Added Pin To Net: NetName=RINV Pin=J18-5
+Added Pin To Net: NetName=RINV Pin=P12-6
+Added Net: Name=RINV
