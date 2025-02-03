@@ -1,0 +1,198 @@
+module CruiseControl:
+%// INPUTS
+input On;
+input Off;
+input Resume;
+input Set;
+input QuickAccel;
+input QuickDecel;
+sensor Accel : float;
+sensor Brake : float;
+sensor Speed : float;
+
+%// OUTPUTS
+output CruiseSpeed := 0.00f : float;
+output ThrottleCmd := 0.00f : float;
+output CruiseState := "OFF" : string;
+
+signal AccelSignal, BrakeSignal, ValidSpeed in
+
+run BrakeControl[ signal Accel/Accel;
+				  signal Brake/Brake;
+				  signal AccelSignal/AccelSignal;
+				  signal BrakeSignal/BrakeSignal]
+||
+run CruiseStateControl[ signal CruiseState/CruiseState;
+						signal Speed/Speed;
+						signal On/On;
+						signal Off/Off;
+						signal Resume/Resume;
+						signal Set/Set;
+						signal QuickAccel/QuickAccel;
+						signal QuickDecel/QuickDecel;
+						signal AccelSignal/AccelSignal;
+						signal BrakeSignal/BrakeSignal;
+						signal ValidSpeed/ValidSpeed;
+						signal CruiseSpeed/CruiseSpeed]
+||
+run AccelState[ signal Speed/Speed;
+				signal ValidSpeed/ValidSpeed]
+||
+run ThrottleControl[ signal Accel/Accel;
+					 signal CruiseState/CruiseState;
+					 signal CruiseSpeed/TargetSpeed;
+					 signal Speed/Speed;
+					 signal ThrottleCmd/ThrottleCmd]
+
+end signal
+end module
+
+module BrakeControl:
+sensor Accel : float;
+sensor Brake : float;
+output AccelSignal;
+output BrakeSignal;
+constant PEDALSMIN = 3.00f : float;
+%// Taking pedal inputs (Only one can be active at a time)
+loop
+	if ?Accel > PEDALSMIN then 
+		emit AccelSignal;
+	elsif ?Brake > PEDALSMIN then 
+		emit BrakeSignal;
+	end if;
+	pause;
+end loop;
+end module 
+
+%// Changing cruise state
+module CruiseStateControl:
+
+constant CC_OFF = "OFF" : string;
+constant CC_ON = "ON" : string;
+constant CC_STDBY = "STBY" : string;
+constant CC_DISABLE = "DISABLE" : string;
+
+constant SPEEDINC = 2.5f : float;
+
+sensor Speed : float;
+input On;
+input Off;
+input Resume;
+input Set;
+input QuickAccel;
+input QuickDecel;
+
+%// External inputs
+input AccelSignal;
+input BrakeSignal;
+input ValidSpeed;
+
+output CruiseState : string;
+output CruiseSpeed : float;
+
+constant SPEEDMIN = 30.0f : float;
+constant SPEEDMAX = 150.0f : float;
+
+loop
+	%// If CruiseState off
+	if pre(?CruiseState) = CC_OFF then
+		present
+			case On do
+				emit CruiseState(CC_ON);
+				emit CruiseSpeed(?Speed);
+		end present;
+	elsif pre(?CruiseState) = CC_ON then
+		
+		present
+			case Off do
+				emit CruiseState(CC_OFF);
+			case BrakeSignal do
+				emit CruiseState(CC_STDBY);
+			case AccelSignal do
+				emit CruiseState(CC_DISABLE);
+			case not ValidSpeed do
+				emit CruiseState(CC_DISABLE);
+			case Set do
+				emit CruiseSpeed(?Speed);
+			case QuickAccel do
+				%// Clamp the Quick Accel to the max
+				if (pre(?CruiseSpeed) + SPEEDINC > SPEEDMAX) then
+					emit CruiseSpeed(SPEEDMAX);
+				else
+					emit CruiseSpeed(pre(?CruiseSpeed) + SPEEDINC);
+				end if;
+			case QuickDecel do
+				%// Clamp the quick Decel to the min
+				if (pre(?CruiseSpeed) - SPEEDINC < SPEEDMIN) then
+					emit CruiseSpeed(SPEEDMIN);
+				else
+					emit CruiseSpeed(pre(?CruiseSpeed) - SPEEDINC);
+				end if;
+		end present;
+	elsif pre(?CruiseState) = CC_STDBY then
+		present
+			case Off do
+				emit CruiseState(CC_OFF);
+			case Resume and ValidSpeed do
+				emit CruiseState(CC_ON);
+				emit CruiseSpeed(?Speed);
+			case Resume and not ValidSpeed do
+				emit CruiseState(CC_DISABLE);
+		end present;
+	elsif pre(?CruiseState) = CC_DISABLE then
+		present
+			case Off do
+				emit CruiseState(CC_OFF);
+			case BrakeSignal do
+				emit CruiseState(CC_STDBY);
+			case not AccelSignal and ValidSpeed do
+				emit CruiseState(CC_ON);
+		end present;
+	end if;
+	pause;
+end loop;
+end module
+
+%// Module to check the current accel state
+module AccelState:
+constant SPEEDMIN = 30.0f : float;
+constant SPEEDMAX = 150.0f : float;
+
+sensor Speed : float;
+
+output ValidSpeed;
+
+loop
+	if ?Speed >= SPEEDMIN and ?Speed <= SPEEDMAX then
+		emit ValidSpeed;
+	end if;
+	pause;
+end loop;
+end module
+
+
+%// Throttle Command
+module ThrottleControl:
+constant CC_ON = "ON" : string;
+
+function regulateThrottle(boolean, float, float) : float;
+
+sensor Accel: float;
+sensor Speed: float;
+input CruiseState: string;
+input TargetSpeed: float;
+
+output ThrottleCmd: float;
+
+loop
+	if (?CruiseState = CC_ON) and not (pre(?CruiseState) = CC_ON) then 
+		emit ThrottleCmd(regulateThrottle(true, pre(?TargetSpeed), ?Speed));
+	elsif (?CruiseState = CC_ON) then 
+		emit ThrottleCmd(regulateThrottle(false, pre(?TargetSpeed), ?Speed));
+	else
+		emit ThrottleCmd(?Accel);
+	end if;
+	pause;
+end loop;
+
+end module
