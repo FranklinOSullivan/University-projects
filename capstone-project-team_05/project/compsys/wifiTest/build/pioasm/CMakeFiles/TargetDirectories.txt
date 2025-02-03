@@ -1,0 +1,3 @@
+/Users/iankuik/Documents/GitHub/capstone-project-team_05/project/compsys/wifitest/build/pioasm/CMakeFiles/pioasm.dir
+/Users/iankuik/Documents/GitHub/capstone-project-team_05/project/compsys/wifitest/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/iankuik/Documents/GitHub/capstone-project-team_05/project/compsys/wifitest/build/pioasm/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/CMakeFiles/ELF2UF2Build
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/CMakeFiles/ELF2UF2Build.rule
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

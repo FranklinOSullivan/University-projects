@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/home/franklin/Git/770/capstone-project-team_05/project/compsys/**",
+                "/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/inc"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "compilerPathInCppPropertiesJson": "/usr/bin/clang",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "/home/franklin/Git/770/capstone-project-team_05/project/compsys/**",
+                    "/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/inc",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/franklin/Git/770/capstone-project-team_05/project/compsys/**",
+                "/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/inc",
+                "/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/src"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "mergeConfigurations": false,
+            "compilerPath": "/usr/bin/gcc",
+            "browse": {
+                "path": [
+                    "/home/franklin/Git/770/capstone-project-team_05/project/compsys/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

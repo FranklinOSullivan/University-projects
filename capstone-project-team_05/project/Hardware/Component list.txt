@@ -1,0 +1,2 @@
+Replace - BJT  
+With -   MOSFET P-CH 20V 6A SOT23F   - note is power mosfet?

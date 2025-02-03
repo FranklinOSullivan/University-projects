@@ -1,0 +1,3 @@
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/pioasm/CMakeFiles/pioasm.dir
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/pioasm/CMakeFiles/edit_cache.dir
+/home/franklin/Git/770/capstone-project-team_05/project/compsys/project-code/build/pioasm/CMakeFiles/rebuild_cache.dir

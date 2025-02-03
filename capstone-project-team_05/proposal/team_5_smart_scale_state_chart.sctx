@@ -1,0 +1,34 @@
+scchart smartScale {
+input signal sensor
+input signal onTareButton
+input signal received
+output signal sendData
+output signal redLED
+output signal greenLED
+int X
+
+  region scaleEntity {
+    clock clk
+    
+    initial state deepSleep 
+    if onTareButton do clk = 0 go to tare
+
+    state tare
+    immediate if sensor go to weigh
+    
+    state weigh
+    if sensor & clk > X do clk = 0 go to transfer /* weighing will take max 3 seconds before final weight is taken */
+    if onTareButton go to tare
+    if !sensor & clk > X do clk = 0 go to deepSleep
+    
+    
+    state transfer
+    if !received & clk < X do sendData go to transfer /* keep polling for success signal */
+    if received do greenLED; clk = 0 go to tare
+    if !received & clk >= X do redLED; clk = 0 go to tare
+   
+    
+    
+    
+  }
+}

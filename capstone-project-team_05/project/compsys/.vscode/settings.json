@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/Users/iankuik/Documents/GitHub/capstone-project-team_05/project/compsys/pico-examples",
+    "files.associations": {
+        "defines.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
