@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_fit",
+		"comment" : "not_applicable",
+		"error_message" : "",
+		"source_file" : "/quartus/ddb/dygr/dygr_place_info.cpp",
+		"line" : "3270",
+		"stack_trace" : "\t0x7ffd7f7382c4: DDB_DYGR + 0x482c4 (DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID::operator unsigned __int64 + 0x2ba80)\n\t0x7ffd7f70df80: DDB_DYGR + 0x1df80 (std::_Hash&lt;std::_Umap_traits&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID,DYGR_BLK_PORT_INFO const * __ptr64,std::_Uhash_compare&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID,STL_HASH_FUNCTOR&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID&gt;,std::equal_to&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID&gt; &gt;,std::allocator&lt;std::pair&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID const ,DYGR_BLK_PORT_INFO const * __ptr64&gt; &gt;,0&gt; &gt;::_Hashval + 0x10)\n\t0x7ffd7f70f5fe: DDB_DYGR + 0x1f5fe (std::unordered_map&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID,DYGR_BLK_PORT_INFO const * __ptr64,STL_HASH_FUNCTOR&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID&gt;,std::equal_to&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID&gt;,std::allocator&lt;std::pair&lt;DYGR_BLK_PHYSICAL_IMPLEMENTATION::PORT_ID const ,DYGR_BLK_PORT_INFO const * __ptr64&gt; &gt; &gt;::operator[] + 0x1e)\n\t0x7ffd7f70d32b: DDB_DYGR + 0x1d32b (DYGR_BLK_PHYSICAL_IMPLEMENTATION::populate_port_info_transient_data + 0xff)\n\t0x7ffd7f7083f6: DDB_DYGR + 0x183f6 (DYGR_PLACE_INFO_BODY::set_transient_data_members + 0x66)\n\t0x7ffd7f723bcb: DDB_DYGR + 0x33bcb (DYGR_PLACE_INFO_BODY::load_data_from_pdb + 0x83)\n\t0x7ffd7f705088: DDB_DYGR + 0x15088 (DYGR_DIE_INFO_BODY::load_data + 0x2a4)\n\t0x7ffd9933cbd3: COMP_MPP + 0x1cbd3 (?start@MPP_ROOT@@QEAA_NPEAVCMP_FACADE@@_N1@Z + 0x573)\n\t0x7ffd4b6d5bea: comp_qfit_legacy_flow + 0x5bea (?qfit_execute_mpp@@YA_NPEAVCMP_FACADE@@@Z + 0x42)\n\t0x7ffd4b6d52ff: comp_qfit_legacy_flow + 0x52ff (QFIT_FRAMEWORK::execute + 0x21b)\n\t0x7ffd4b6d267f: comp_qfit_legacy_flow + 0x267f (qfit_legacy_flow_run_legacy_fitter_flow + 0x1c7)\n\t 0x10014410: tcl86 + 0x14410 (TclInvokeStringCommand + 0xf0)\n\t 0x100161e2: tcl86 + 0x161e2 (TclNRRunCallbacks + 0x62)\n\t 0x10017a65: tcl86 + 0x17a65 (TclEvalEx + 0xa65)\n\t 0x100a6f8b: tcl86 + 0xa6f8b (Tcl_FSEvalFileEx + 0x22b)\n\t 0x100a5646: tcl86 + 0xa5646 (Tcl_EvalFile + 0x36)\n\t0x7ffdb91a2606: comp_qexe + 0x12606 (?qexe_evaluate_tcl_script@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z + 0x376)\n\t0x7ffdb91a1864: comp_qexe + 0x11864 (qexe_do_tcl + 0x334)\n\t0x7ffdb91a6755: comp_qexe + 0x16755 (?qexe_run_tcl_option@@YA_NPEAVQEXE_FRAMEWORK@@PEBDPEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@Z + 0x585)\n\t0x7ffd7f1280c3: comp_qcu + 0x380c3 (?qcu_run_tcl_option@@YA_NPEAVQCU_FRAMEWORK@@PEBDPEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@_N@Z + 0x1003)\n\t0x7ffdb91a60aa: comp_qexe + 0x160aa (qexe_run + 0x39a)\n\t0x7ffdb91a6e51: comp_qexe + 0x16e51 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff64eb22233: quartus_fit + 0x2233 (?qfit2_main@@YAHHPEAPEBD@Z + 0x73)\n\t0x7ffdab9e2e98: CCL_MSG + 0x12e98 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ffdab9e467e: CCL_MSG + 0x1467e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffdabb36660: ccl_mem + 0x16660 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffdab9e2761: CCL_MSG + 0x12761 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff64eb2287e: quartus_fit + 0x287e (__tmainCRTStartup + 0x10e)\n\t0x7ffdce360a9b: KERNEL32 + 0xf0a9b (uaw_wcsrchr + 0xeafdb)\n\t0x7ffdce2f7c0f: KERNEL32 + 0x87c0f (uaw_wcsrchr + 0x8214f)\n\t0x7ffdd05fa927: ntdll + 0x1ba927 (ZwWaitLowEventPair + 0x1ac1e7)\n",
+		"subsystem" : "DYGR"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "18.1.0",
+		"build" : "625",
+		"edition" : "Lite Edition"
+	}
+}

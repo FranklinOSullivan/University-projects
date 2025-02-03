@@ -1,0 +1,492 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do pd_asp_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Error (suppressible): (vdel-19) Failed to access library 'rtl_work' at "rtl_work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'rtl_work' is missing or is not a valid ModelSim library.
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vdel failed.
+# Error in macro ./pd_asp_run_msim_rtl_vhdl.do line 4
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vdel failed.
+#     while executing
+# "error [FixExecError $msg]"
+#     (procedure "vdel" line 6)
+#     invoked from within
+# "vdel -lib rtl_work -all"
+#     invoked from within
+# "if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }"
+vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/test/wave.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:38:33 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/test/wave.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity wave
+# -- Compiling architecture beh of wave
+# End time: 15:38:33 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work C:/ASP/COMPSYS701/PD-ASP/test/wave_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:38:33 on May 24,2024
+# vcom -reportprogress 30 -work work C:/ASP/COMPSYS701/PD-ASP/test/wave_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity wave_tb
+# -- Compiling architecture sim of wave_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# -- Loading entity wave
+# End time: 15:38:33 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work C:/ASP/COMPSYS701/PD-ASP/test/wave_trough_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:38:33 on May 24,2024
+# vcom -reportprogress 30 -work work C:/ASP/COMPSYS701/PD-ASP/test/wave_trough_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity wave_trough_tb
+# -- Compiling architecture sims of wave_trough_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# -- Loading entity wave
+# End time: 15:38:33 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:38:44 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package TdmaMinTypes
+# -- Compiling entity pd_asp
+# -- Compiling architecture peak_detection of pd_asp
+# End time: 15:38:44 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:38:44 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity tb_pd_asp
+# -- Compiling architecture sim of tb_pd_asp
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# End time: 15:38:44 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/TdmaMinTypes.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:38:44 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/TdmaMinTypes.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package TdmaMinTypes
+# -- Compiling package body TdmaMinTypes
+# -- Loading package TdmaMinTypes
+# End time: 15:38:44 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_pd_asp
+# vsim work.tb_pd_asp 
+# Start time: 15:38:57 on May 24,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_pd_asp(sim)
+# Loading work.pd_asp(peak_detection)
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_pd_asp/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_pd_asp/send_signal.addr(7 downto 0).
+add wave -position insertpoint  \
+sim:/tb_pd_asp/DUT/edge
+add wave -position insertpoint  \
+sim:/tb_pd_asp/DUT/clock
+add wave -position insertpoint  \
+sim:/tb_pd_asp/DUT/correlation_count_signal
+add wave -position insertpoint  \
+sim:/tb_pd_asp/DUT/send
+add wave -position insertpoint  \
+sim:/tb_pd_asp/recv_signal
+run
+add wave -position end  sim:/tb_pd_asp/DUT/send_flag
+add wave -position end  sim:/tb_pd_asp/DUT/invert_signal
+restart -f
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_pd_asp/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_pd_asp/send_signal.addr(7 downto 0).
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+vcom -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:43:59 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity tb_pd_asp
+# -- Compiling architecture sim of tb_pd_asp
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# ** Error: C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(75): near "recv_signal": (vcom-1576) expecting ';'.
+# ** Error (suppressible): C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(54): (vcom-1272) Length of expected is 32; length of actual is 16.
+# ** Error (suppressible): C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(64): (vcom-1272) Length of expected is 32; length of actual is 16.
+# ** Error (suppressible): C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(94): (vcom-1272) Length of expected is 32; length of actual is 16.
+# ** Error (suppressible): C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(102): (vcom-1272) Length of expected is 32; length of actual is 16.
+# ** Error (suppressible): C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(110): (vcom-1272) Length of expected is 32; length of actual is 16.
+# ** Error: C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(134): VHDL Compiler exiting
+# End time: 15:43:59 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+vcom -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:45:54 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity tb_pd_asp
+# -- Compiling architecture sim of tb_pd_asp
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# ** Error: C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(75): near "recv_signal": (vcom-1576) expecting ';'.
+# ** Error: C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd(134): VHDL Compiler exiting
+# End time: 15:45:54 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vcom failed.
+vcom -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:46:29 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity tb_pd_asp
+# -- Compiling architecture sim of tb_pd_asp
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# End time: 15:46:29 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:07 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity tb_pd_asp
+# -- Compiling architecture sim of tb_pd_asp
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# End time: 15:48:07 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_pd_asp
+# End time: 15:48:42 on May 24,2024, Elapsed time: 0:09:45
+# Errors: 6, Warnings: 2
+# vsim work.tb_pd_asp 
+# Start time: 15:48:42 on May 24,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_pd_asp(sim)
+# Loading work.pd_asp(peak_detection)
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_pd_asp/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_pd_asp/send_signal.addr(7 downto 0).
+add wave -position end  sim:/tb_pd_asp/DUT/edge
+add wave -position end  sim:/tb_pd_asp/DUT/recv
+add wave -position end  sim:/tb_pd_asp/DUT/send
+add wave -position 0  sim:/tb_pd_asp/DUT/clock
+add wave -position end  sim:/tb_pd_asp/DUT/correlation_count_signal
+add wave -position end  sim:/tb_pd_asp/DUT/send_flag
+add wave -position end  sim:/tb_pd_asp/DUT/invert_signal
+run
+vcom -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:51:18 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity tb_pd_asp
+# -- Compiling architecture sim of tb_pd_asp
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# End time: 15:51:18 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:51:24 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity tb_pd_asp
+# -- Compiling architecture sim of tb_pd_asp
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pd_asp
+# End time: 15:51:24 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_pd_asp
+# End time: 15:51:29 on May 24,2024, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 1
+# vsim work.tb_pd_asp 
+# Start time: 15:51:30 on May 24,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb_pd_asp(sim)
+# Loading work.pd_asp(peak_detection)
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_pd_asp/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_pd_asp/send_signal.addr(7 downto 0).
+run
+add wave -position 4  sim:/tb_pd_asp/DUT/count
+restart -f
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_pd_asp/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_pd_asp/send_signal.addr(7 downto 0).
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+vsim work.wave_tb
+# End time: 15:54:54 on May 24,2024, Elapsed time: 0:03:24
+# Errors: 0, Warnings: 2
+# vsim work.wave_tb 
+# Start time: 15:54:55 on May 24,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.wave_tb(sim)
+# Loading work.pd_asp(peak_detection)
+# Loading work.wave(beh)
+# ** Warning: (vsim-8684) No drivers exist on out port /wave_tb/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /wave_tb/send_signal.addr(7 downto 0).
+add wave -position end  sim:/wave_tb/input
+add wave -position end  sim:/wave_tb/output
+add wave -position end  sim:/wave_tb/DUT/send_flag
+add wave -position 2  sim:/wave_tb/DUT/correlation_count_signal
+add wave -position 3  sim:/wave_tb/DUT/edge
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 1  Instance: /wave_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /wave_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /wave_tb/DUT
+vsim work.wave_trough_tb
+# End time: 15:56:43 on May 24,2024, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 4
+# vsim work.wave_trough_tb 
+# Start time: 15:56:43 on May 24,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.wave_trough_tb(sims)
+# Loading work.pd_asp(peak_detection)
+# Loading work.wave(beh)
+# ** Warning: (vsim-8684) No drivers exist on out port /wave_trough_tb/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /wave_trough_tb/send_signal.addr(7 downto 0).
+add wave -position end  sim:/wave_trough_tb/input
+add wave -position end  sim:/wave_trough_tb/DUT/recv
+add wave -position end  sim:/wave_trough_tb/DUT/send
+add wave -position 1  sim:/wave_trough_tb/DUT/edge
+add wave -position end  sim:/wave_trough_tb/DUT/correlation_count_signal
+add wave -position end  sim:/wave_trough_tb/DUT/send_flag
+add wave -position end  sim:/wave_trough_tb/DUT/invert_signal
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+quit -sim
+# End time: 16:03:57 on May 24,2024, Elapsed time: 0:07:14
+# Errors: 0, Warnings: 5
+vcom -work work C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:04:37 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package TdmaMinTypes
+# -- Compiling entity pd_asp
+# -- Compiling architecture peak_detection of pd_asp
+# End time: 16:04:37 on May 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.wave_trough_tb
+# vsim work.wave_trough_tb 
+# Start time: 16:04:40 on May 24,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.wave_trough_tb(sims)
+# Loading work.pd_asp(peak_detection)
+# Loading work.wave(beh)
+# ** Warning: (vsim-8684) No drivers exist on out port /wave_trough_tb/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /wave_trough_tb/send_signal.addr(7 downto 0).
+add wave -position end  sim:/wave_trough_tb/input
+add wave -position end  sim:/wave_trough_tb/clk
+add wave -position end  sim:/wave_trough_tb/DUT/send_flag
+add wave -position end  sim:/wave_trough_tb/DUT/invert_signal
+add wave -position end  sim:/wave_trough_tb/DUT/edge
+add wave -position end  sim:/wave_trough_tb/DUT/correlation_count_signal
+add wave -position end  sim:/wave_trough_tb/DUT/send
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+add wave -position end  sim:/wave_trough_tb/DUT/current_correlation
+add wave -position end  sim:/wave_trough_tb/DUT/previous_correlation
+run
+vsim work.wave_trough_tb
+# End time: 16:09:59 on May 24,2024, Elapsed time: 0:05:19
+# Errors: 0, Warnings: 4
+# vsim work.wave_trough_tb 
+# Start time: 16:09:59 on May 24,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.wave_trough_tb(sims)
+# Loading work.pd_asp(peak_detection)
+# Loading work.wave(beh)
+# ** Warning: (vsim-8684) No drivers exist on out port /wave_trough_tb/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /wave_trough_tb/send_signal.addr(7 downto 0).
+vcom -work work C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:10:09 on May 24,2024
+# vcom -reportprogress 300 -work work C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package TdmaMinTypes
+# -- Compiling entity pd_asp
+# -- Compiling architecture peak_detection of pd_asp
+# End time: 16:10:10 on May 24,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.wave_trough_tb
+# End time: 16:11:29 on May 24,2024, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 1
+# vsim work.wave_trough_tb 
+# Start time: 16:11:29 on May 24,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.wave_trough_tb(sims)
+# Loading work.pd_asp(peak_detection)
+# Loading work.wave(beh)
+# ** Warning: (vsim-8684) No drivers exist on out port /wave_trough_tb/DUT/send.addr(7 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /wave_trough_tb/send_signal.addr(7 downto 0).
+add wave -position end  sim:/wave_trough_tb/input
+# Can't move the Now cursor.
+add wave -position end  sim:/wave_trough_tb/send_signal
+add wave -position end  sim:/wave_trough_tb/recv_signal
+add wave -position 0  sim:/wave_trough_tb/clk
+add wave -position end  sim:/wave_trough_tb/DUT/send_flag
+add wave -position end  sim:/wave_trough_tb/DUT/invert_signal
+add wave -position end  sim:/wave_trough_tb/DUT/correlation_count_signal
+add wave -position end  sim:/wave_trough_tb/DUT/edge
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 1  Instance: /wave_trough_tb/DUT
+quit -sim
+# End time: 17:05:15 on May 24,2024, Elapsed time: 0:53:46
+# Errors: 1, Warnings: 4

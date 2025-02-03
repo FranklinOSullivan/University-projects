@@ -1,0 +1,30 @@
+# vsim work.AvgAspWave_tb
+# vsim work.AvgAspWave_tb 
+# Start time: 14:48:05 on May 31,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tdmamintypes(body)
+# Loading work.test_utils(body)
+# Loading std.env(body)
+# Loading ieee.math_real(body)
+# Loading work.avgaspwave_tb(sim)
+# Loading work.avgasp(rtl)
+# Loading work.power_signal_rom(behavioral)
+#  do wave.do
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 14:48:25 on May 31,2024, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0

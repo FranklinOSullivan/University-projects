@@ -1,0 +1,77 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/dylan/Workspace/COMPSYS701/Lab2/Nios_System_2A.qsys --block-symbol-file --output-directory=/home/dylan/Workspace/COMPSYS701/Lab2/Nios_System_2A --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Lab2/Nios_System_2A.qsys
+Progress: Reading input file
+Progress: Adding BUTTON_pio [altera_avalon_pio 18.1]
+Progress: Parameterizing module BUTTON_pio
+Progress: Adding LED_pio [altera_avalon_pio 18.1]
+Progress: Parameterizing module LED_pio
+Progress: Adding clocks [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module clocks
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding high_res_timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module high_res_timer
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Nios_System_2A.BUTTON_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Nios_System_2A.clocks: Refclk Freq: 50.0
+Info: Nios_System_2A.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Nios_System_2A.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/dylan/Workspace/COMPSYS701/Lab2/Nios_System_2A.qsys --synthesis=VHDL --output-directory=/home/dylan/Workspace/COMPSYS701/Lab2/Nios_System_2A/synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Lab2/Nios_System_2A.qsys
+Progress: Reading input file
+Progress: Adding BUTTON_pio [altera_avalon_pio 18.1]
+Progress: Parameterizing module BUTTON_pio
+Progress: Adding LED_pio [altera_avalon_pio 18.1]
+Progress: Parameterizing module LED_pio
+Progress: Adding clocks [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module clocks
+Progress: Adding cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module cpu
+Progress: Adding high_res_timer [altera_avalon_timer 18.1]
+Progress: Parameterizing module high_res_timer
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Nios_System_2A.BUTTON_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: Nios_System_2A.clocks: Refclk Freq: 50.0
+Info: Nios_System_2A.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Nios_System_2A.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: Nios_System_2A: Generating Nios_System_2A "Nios_System_2A" for QUARTUS_SYNTH
+Info: BUTTON_pio: Starting RTL generation for module 'Nios_System_2A_BUTTON_pio'
+Info: BUTTON_pio:   Generation command is [exec /home/dylan/intelFPGA_lite/18.1/quartus/linux64/perl/bin/perl -I /home/dylan/intelFPGA_lite/18.1/quartus/linux64/perl/lib -I /home/dylan/intelFPGA_lite/18.1/quartus/sopc_builder/bin/europa -I /home/dylan/intelFPGA_lite/18.1/quartus/sopc_builder/bin/perl_lib -I /home/dylan/intelFPGA_lite/18.1/quartus/sopc_builder/bin -I /home/dylan/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/dylan/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/dylan/intelFPGA_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Nios_System_2A_BUTTON_pio --dir=/tmp/alt9791_3981593734437990745.dir/0005_BUTTON_pio_gen/ --quartus_dir=/home/dylan/intelFPGA_lite/18.1/quartus --verilog --config=/tmp/alt9791_3981593734437990745.dir/0005_BUTTON_pio_gen//Nios_System_2A_BUTTON_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: BUTTON_pio: perl: warning: Setting locale failed.
+Info: BUTTON_pio: perl: warning: Please check that your locale settings:
+Info: BUTTON_pio: 	LANGUAGE = (unset),
+Info: BUTTON_pio: 	LC_ALL = (unset),
+Info: BUTTON_pio: 	LC_CTYPE = "en_US.UTF-8",
+Info: BUTTON_pio: 	LANG = "C"
+Info: BUTTON_pio:     are supported and installed on your system.
+Info: BUTTON_pio: perl: warning: Falling back to the standard locale ("C").
+Error: BUTTON_pio: Failed to generate module Nios_System_2A_BUTTON_pio
+Info: BUTTON_pio: Done RTL generation for module 'Nios_System_2A_BUTTON_pio'
+Info: BUTTON_pio: "Nios_System_2A" instantiated altera_avalon_pio "BUTTON_pio"
+Error: Generation stopped, 10 or more modules remaining
+Info: Nios_System_2A: Done "Nios_System_2A" with 12 modules, 2 files
+Error: qsys-generate failed with exit code 1: 2 Errors, 0 Warnings
+Info: Finished: Create HDL design files for synthesis

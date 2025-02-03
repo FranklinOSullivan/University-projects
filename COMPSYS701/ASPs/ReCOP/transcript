@@ -1,0 +1,46 @@
+# vsim work.recop_tb
+# vsim work.recop_tb 
+# Start time: 13:52:32 on May 31,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.recop_types
+# Loading work.recop_tb(sim)
+# Loading work.opcodes
+# Loading work.recop(synthesis)
+# Loading work.datapath(behaviour)
+# Loading work.registerfile(rtl)
+# Loading work.alu(combined)
+# Loading work.control_unit(behaviour)
+# Loading work.prog_mem(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.data_mem(syn)
+# Loading work.mem_io(syn)
+# Loading work.num_to_seven_seg(behavioral)
+# Loading work.memory_arbiter(behav)
+# Loading work.recop_pll(syn)
+# Loading altera_mf.mf_pllpack(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_stratixiii_pll(vital_pll)
+# Loading altera_mf.mf_ttn_mn_cntr(behave)
+# Loading altera_mf.mf_ttn_scale_cntr(behave)
+#  do wave.do
+# 
+run
+# ** Warning: Warning: RAM block type is assumed as AUTO
+#    Time: 0 ps  Iteration: 0  Instance: /recop_tb/DUT/prog_mem/altsyncram_component
+run
+# ** Note: Cyclone V PLL locked to incoming clock
+#    Time: 120 ns  Iteration: 3  Instance: /recop_tb/DUT/recop_pll_inst/altpll_component/STRATIXIII_ALTPLL/M4
+run
+run
+run
+run
+run
+# End time: 13:57:10 on May 31,2024, Elapsed time: 0:04:38
+# Errors: 0, Warnings: 1

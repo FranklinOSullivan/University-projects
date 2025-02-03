@@ -1,0 +1,321 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ASP/COMPSYS701/PD-ASP/simulation/modelsim
+Epd_asp
+Z1 w1716523792
+Z2 DPx4 work 12 tdmamintypes 0 22 zUbdIXj5XgoVHmag:X:zR3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+Z8 8C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd
+Z9 FC:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd
+l0
+L9
+VU6Z;P[8B;E78W1^S1_Iz81
+!s100 B7cIo@U1?N;>l<`RTY44?3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1716523810
+!i10b 1
+Z12 !s108 1716523809.000000
+Z13 !s90 -reportprogress|300|-work|work|C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd|
+Z14 !s107 C:/ASP/COMPSYS701/PD-ASP/src/pd_asp.vhd|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Apeak_detection
+R2
+R3
+R4
+R5
+R6
+R7
+Z17 DEx4 work 6 pd_asp 0 22 U6Z;P[8B;E78W1^S1_Iz81
+l36
+L18
+Vd22RodDbLI^;HW<`0?k`01
+!s100 BH69Ik6WATIN5ZhEcW;a22
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Epower_signal_rom
+Z18 w1716513432
+R7
+R6
+R5
+R0
+Z19 8C:/ASP/COMPSYS701/PD-ASP/test/wave.vhd
+Z20 FC:/ASP/COMPSYS701/PD-ASP/test/wave.vhd
+l0
+L5
+VoAhG^SG8m4:WCQ_2XZK8J3
+!s100 RKnQ]B8`IjhaP;SlmkElF0
+R10
+32
+Z21 !s110 1716513467
+!i10b 1
+Z22 !s108 1716513467.000000
+Z23 !s90 -reportprogress|300|-work|work|C:/ASP/COMPSYS701/PD-ASP/test/wave.vhd|
+Z24 !s107 C:/ASP/COMPSYS701/PD-ASP/test/wave.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R7
+R6
+R5
+DEx4 work 16 power_signal_rom 0 22 oAhG^SG8m4:WCQ_2XZK8J3
+Z25 l1618
+L13
+VS:2]1NDFWb3QXYAbz9F>01
+!s100 DlVLai2JhbbI6U1FC`57i2
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R15
+R16
+Etb_pd_asp
+Z26 w1716522674
+R2
+R7
+R6
+R5
+R0
+Z27 8C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+Z28 FC:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd
+l0
+L8
+VggY6T4>RAjYkJg>HYMz]F0
+!s100 `cI>G:eL^AK1eD4PVAlB31
+R10
+32
+Z29 !s110 1716522684
+!i10b 1
+Z30 !s108 1716522684.000000
+Z31 !s90 -reportprogress|300|-work|work|C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd|
+Z32 !s107 C:/ASP/COMPSYS701/PD-ASP/src/tb_pd_asp.vhd|
+!i113 1
+R15
+R16
+Asim
+R3
+R4
+R17
+R2
+R7
+R6
+R5
+DEx4 work 9 tb_pd_asp 0 22 ggY6T4>RAjYkJg>HYMz]F0
+l21
+L11
+VMT_8T76:;@k[X>j:E=4XH0
+!s100 9neWMiY<EIUoW?n[J9e]b2
+R10
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R15
+R16
+Ptdmamintypes
+R5
+R6
+R7
+Z33 w1716346834
+R0
+Z34 8C:/ASP/COMPSYS701/PD-ASP/src/TdmaMinTypes.vhd
+Z35 FC:/ASP/COMPSYS701/PD-ASP/src/TdmaMinTypes.vhd
+l0
+L5
+VzUbdIXj5XgoVHmag:X:zR3
+!s100 RO]^LXRIn]Gj8NO>kodKH0
+R10
+32
+b1
+Z36 !s110 1716521924
+!i10b 1
+Z37 !s108 1716521924.000000
+Z38 !s90 -reportprogress|300|-work|work|C:/ASP/COMPSYS701/PD-ASP/src/TdmaMinTypes.vhd|
+Z39 !s107 C:/ASP/COMPSYS701/PD-ASP/src/TdmaMinTypes.vhd|
+!i113 1
+R15
+R16
+Bbody
+R2
+R5
+R6
+R7
+l0
+L23
+V<A1G_[MEAzN9V>]FnD[HW1
+!s100 0>WOSehlFYi]icGfEjD0:1
+R10
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R15
+R16
+Ewave
+Z40 w1716513931
+R7
+R6
+R5
+R0
+R19
+R20
+l0
+L5
+VnS;fG[GlS;5Gj2H9^OEL31
+!s100 93HN=jg4dF```m9I8S1m_0
+R10
+32
+Z41 !s110 1716521913
+!i10b 1
+Z42 !s108 1716521913.000000
+R23
+R24
+!i113 1
+R15
+R16
+Abeh
+R7
+R6
+R5
+Z43 DEx4 work 4 wave 0 22 nS;fG[GlS;5Gj2H9^OEL31
+R25
+L13
+VVgGzVL`nW^mJ?N:2HheeU1
+!s100 QOk>f_jKl7[k=e9_I9=A`0
+R10
+32
+R41
+!i10b 1
+R42
+R23
+R24
+!i113 1
+R15
+R16
+Ewave_tb
+Z44 w1716521192
+R2
+R7
+R6
+R5
+R0
+Z45 8C:/ASP/COMPSYS701/PD-ASP/test/wave_tb.vhd
+Z46 FC:/ASP/COMPSYS701/PD-ASP/test/wave_tb.vhd
+l0
+L8
+Vn6jVhPNaCGZ[]=0d2jehL1
+!s100 k=`G:gjKC6X0gi:E_S?@I0
+R10
+32
+R41
+!i10b 1
+R42
+Z47 !s90 -reportprogress|30|-work|work|C:/ASP/COMPSYS701/PD-ASP/test/wave_tb.vhd|
+Z48 !s107 C:/ASP/COMPSYS701/PD-ASP/test/wave_tb.vhd|
+!i113 1
+R15
+R16
+Asim
+R43
+R3
+R4
+R17
+R2
+R7
+R6
+R5
+DEx4 work 7 wave_tb 0 22 n6jVhPNaCGZ[]=0d2jehL1
+l24
+L11
+VYBP<Rc2BYCn7fYh6Mk:Z42
+!s100 A4_PPTekP6Fa9jIjf=?hP2
+R10
+32
+R41
+!i10b 1
+R42
+R47
+R48
+!i113 1
+R15
+R16
+Ewave_trough_tb
+Z49 w1716521542
+R2
+R7
+R6
+R5
+R0
+Z50 8C:/ASP/COMPSYS701/PD-ASP/test/wave_trough_tb.vhd
+Z51 FC:/ASP/COMPSYS701/PD-ASP/test/wave_trough_tb.vhd
+l0
+L8
+V2a^PHH8LDWPf<P<doIIA<2
+!s100 EbMUfQBJ=jk<fEDOfHQn41
+R10
+32
+R41
+!i10b 1
+R42
+Z52 !s90 -reportprogress|30|-work|work|C:/ASP/COMPSYS701/PD-ASP/test/wave_trough_tb.vhd|
+Z53 !s107 C:/ASP/COMPSYS701/PD-ASP/test/wave_trough_tb.vhd|
+!i113 1
+R15
+R16
+Asims
+R43
+R3
+R4
+R17
+R2
+R7
+R6
+R5
+DEx4 work 14 wave_trough_tb 0 22 2a^PHH8LDWPf<P<doIIA<2
+l24
+L11
+VPIYS]3`EZROKCQTPcP:[X0
+!s100 jA7l:]mNOoZ]Vglnd`^id0
+R10
+32
+R41
+!i10b 1
+R42
+R52
+R53
+!i113 1
+R15
+R16

@@ -1,0 +1,43 @@
+-- Contents are randomly generated during RTL generation.
+WIDTH=10;
+DEPTH=32;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+
+00 : 271;
+01 : 026;
+02 : 19b;
+03 : 3d9;
+04 : 297;
+05 : 282;
+06 : 203;
+07 : 2f5;
+08 : 001;
+09 : 3bf;
+0a : 15f;
+0b : 36c;
+0c : 395;
+0d : 2c3;
+0e : 18d;
+0f : 3df;
+10 : 1a3;
+11 : 38e;
+12 : 378;
+13 : 036;
+14 : 2a0;
+15 : 065;
+16 : 276;
+17 : 26a;
+18 : 221;
+19 : 3fa;
+1a : 2f2;
+1b : 0bd;
+1c : 38d;
+1d : 360;
+1e : 397;
+1f : 252;
+
+END;
